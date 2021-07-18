@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Join elements of array into single string </title>
+</head>
+<body>
+   <script>
+       var cssClasses = ['11', 'is', 'my', 'fav', 'no', 'i', 'like', 'coding', 'js', 'an', 'intresting', 'programming', 'language', '4', '5', '6', '7', '8', '9', '2'];
+var btnClass = cssClasses.join(' ');
+
+document.write(btnClass);
+   </script>
+</body>
+</html>
